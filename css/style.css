@@ -397,6 +397,19 @@ form, input[type=email], input[type=text] {
     border: 1px solid #ccc;
 }
 
+.whatsapp {
+    background-color: #25d366;
+    color: #fff;
+    padding: 17px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    border-bottom: 4px solid #1ea54f;
+}
+
+.notfound a, .whatsapp, a, footer a:hover {
+    text-decoration: none;
+}
+
 @media (min-width:992px) {
     .section-title {
         margin-left: auto;
