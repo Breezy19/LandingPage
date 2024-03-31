@@ -351,6 +351,52 @@ body {
     margin-bottom: 20px
 }
 
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.center, form {
+    margin: 0 auto;
+}
+
+.form-frame {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+form, input[type=email], input[type=text] {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.contact .form input, .contact .form textarea {
+    color: #3b3b3b;
+    width: 100%;
+    padding: 15px 0;
+    background: 0 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+input[type=email], input[type=text] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+form, input[type=email], input[type=text] {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
 @media (min-width:992px) {
     .section-title {
         margin-left: auto;
