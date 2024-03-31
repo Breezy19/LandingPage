@@ -351,34 +351,6 @@ body {
     margin-bottom: 20px
 }
 
-.features-section .item-single p {
-    font-size: 18px
-}
-
-.software-features-section .right-container .section-title {
-    margin-bottom: 10px
-}
-
-.software-features-section .right-container .section-title h2 {
-    font-size: 48px
-}
-
-.software-features-section .bottom-content {
-    margin-top: 60px
-}
-
-.software-features-section .bottom-content .decorator-shape-01 {
-    position: absolute;
-    left: 100px;
-    top: -25px
-}
-
-.software-features-section .bottom-content .decorator-shape-02 {
-    position: absolute;
-    right: 100px;
-    top: -25px
-}
-
 @media (min-width:992px) {
     .section-title {
         margin-left: auto;
