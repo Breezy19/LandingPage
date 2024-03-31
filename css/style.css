@@ -410,6 +410,14 @@ form, input[type=email], input[type=text] {
     text-decoration: none;
 }
 
+.floating-whatsapp {
+    position: fixed;
+    bottom: 55px;
+    right: 2px;
+    text-align: center;
+    color: #25d366;
+}
+
 @media (min-width:992px) {
     .section-title {
         margin-left: auto;
