@@ -8,14 +8,6 @@ body {
     background-color: #fff;
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
 .navbar-brand, .navbar-brand img {
     max-width: 170px;
     width: 100%;
@@ -43,6 +35,14 @@ body {
     font-size: 65px;
 }
 
+.hero-section .bottom-content {
+    max-width: 950px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
 .hero-section {
     padding-top: 145px;
     background-image: url(../img/hero-bg.png);
@@ -60,6 +60,14 @@ body {
 .section-spacer {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.software-features-section .right-container .section-title {
+    margin-bottom: 10px;
+}
+
+.software-features-section .right-container .section-title h2 {
+    font-size: 48px;
 }
 
 .software-features-section .bottom-content {
@@ -90,13 +98,9 @@ body {
     border: 1px solid #ff6300;
     border-radius: 5px;
     padding: 15px 30px;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-direction: column;
     flex-direction: column;
     border-bottom: 4px solid #df5800;
 }
@@ -109,14 +113,6 @@ body {
 
 .btn .title, .contactinfo, .section-title h2, .section-title p {
     text-transform: uppercase;
-}
-
-.software-features-section .bottom-content {
-    margin-top: 60px;
-}
-
-.software-features-section .right-container .section-title {
-    margin-bottom: 10px;
 }
 
 .section-title p {
@@ -145,9 +141,7 @@ body {
     text-transform: uppercase;
 }
 
-.software-features-section .right-container .section-title h2 {
-    font-size: 48px;
-}
+
 
 .section-title h2 {
     font-size: 50px;
@@ -162,6 +156,10 @@ body {
     color: #09c712 !important;
 }
 
+.text-yellow {
+    color: #fff000 !important;
+}
+
 
 .section-title {
     margin-bottom: 40px;
@@ -170,4 +168,27 @@ body {
 
 .font-weight-semibold {
     font-weight: 600 !important;
+}
+
+.presentation-section:before {
+    content: url('../img/presentation-bg.png');
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -1
+}
+
+.presentation-section .inner-container,
+.video-section .top-content {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.presentation-section .inner-container p {
+    font-size: 45px
 }
