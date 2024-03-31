@@ -8,6 +8,14 @@ body {
     background-color: #fff;
 }
 
+.text-green {
+    color: #09c712 !important;
+}
+
+.text-yellow {
+    color: #fff000 !important;
+}
+
 .navbar-brand, .navbar-brand img {
     max-width: 170px;
     width: 100%;
@@ -151,15 +159,6 @@ body {
 .btn .title, .contactinfo, .section-title h2, .section-title p {
     text-transform: uppercase;
 }
-
-.text-green {
-    color: #09c712 !important;
-}
-
-.text-yellow {
-    color: #fff000 !important;
-}
-
 
 .section-title {
     margin-bottom: 40px;
