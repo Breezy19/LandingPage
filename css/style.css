@@ -318,6 +318,67 @@ body {
     padding: 12px 27px
 }
 
+.features-section {
+    background-image: url('../img/features-bg.png');
+    background-position: bottom center
+}
+
+.features-section,
+.hero-section {
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.features-section.section-alt-spacer {
+    padding-bottom: 50px
+}
+
+.contact-sec .form .form-group,
+.features-section .item-single,
+.testimonial-single:not(:last-of-type) {
+    margin-bottom: 30px
+}
+
+.features-section .inner-container {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 30px 25px
+}
+
+.features-section .item-single h4 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.features-section .item-single p {
+    font-size: 18px
+}
+
+.software-features-section .right-container .section-title {
+    margin-bottom: 10px
+}
+
+.software-features-section .right-container .section-title h2 {
+    font-size: 48px
+}
+
+.software-features-section .bottom-content {
+    margin-top: 60px
+}
+
+.software-features-section .bottom-content .decorator-shape-01 {
+    position: absolute;
+    left: 100px;
+    top: -25px
+}
+
+.software-features-section .bottom-content .decorator-shape-02 {
+    position: absolute;
+    right: 100px;
+    top: -25px
+}
+
 @media (min-width:992px) {
     .section-title {
         margin-left: auto;
