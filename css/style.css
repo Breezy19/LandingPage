@@ -144,25 +144,23 @@ body {
     background-color: #e0e0e0;
 }
 
-.section-title h2, .section-title p {
-    display: inline-block;
-    text-transform: uppercase;
+.section-title {
+    margin-bottom: 40px;
+    text-align: center
 }
-
-
 
 .section-title h2 {
     font-size: 50px;
     font-weight: 900;
 }
 
-.btn .title, .contactinfo, .section-title h2, .section-title p {
+.section-title h2, .section-title p {
+    display: inline-block;
     text-transform: uppercase;
 }
 
-.section-title {
-    margin-bottom: 40px;
-    text-align: center
+.btn .title, .contactinfo, .section-title h2, .section-title p {
+    text-transform: uppercase;
 }
 
 .font-weight-semibold {
@@ -190,4 +188,72 @@ body {
 
 .presentation-section .inner-container p {
     font-size: 45px
+}
+
+.order-form-section .left-container .form-title:not(:first-of-type),
+.recommended-section .bottom-content,
+.screenshot-section .tab-content {
+    margin-top: 50px
+}
+
+.testimonial-single .testimonial-details .avatar, .testimonial-single .testimonial-details .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.counter, .testimonial-single .testimonial-details .avatar {
+    margin-right: 10px;
+}
+
+.testimonial-details .details h4 {
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.banner-section p, .hero-section .middle-content p, .testimonial-single h4 {
+    font-size: 22px;
+}
+
+.notfound a, .whatsapp, a, footer a:hover {
+    text-decoration: none;
+}
+
+.testimonial-details .details h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.testimonial-details {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.testimonial-single p {
+    font-size: 16px;
+}
+
+.font-weight-semibold {
+    font-weight: 600 !important;
+}
+
+.font-weight-extrabold {
+    font-weight: 800 !important;
+}
+
+@media (min-width:992px) {
+    .section-title {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        width: 100%
+    }
+
+    .order-form-section .right-container .btn {
+        min-width: 100%
+    }
 }
