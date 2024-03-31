@@ -196,6 +196,7 @@ body {
     margin-top: 50px
 }
 
+
 .testimonial-single .testimonial-details .avatar, .testimonial-single .testimonial-details .avatar img {
     width: 50px;
     height: 50px;
@@ -243,6 +244,34 @@ body {
 
 .font-weight-extrabold {
     font-weight: 800 !important;
+}
+
+.banner-section p,
+.hero-section .middle-content p,
+.testimonial-single h4 {
+    font-size: 22px
+}
+
+.counter,
+.testimonial-single .testimonial-details .avatar {
+    margin-right: 10px
+}
+
+.contact-sec .form .form-group,
+.features-section .item-single,
+.testimonial-single:not(:last-of-type) {
+    margin-bottom: 30px
+}
+
+.testimonial-single p {
+    font-size: 16px
+}
+
+.testimonial-single .testimonial-details .avatar,
+.testimonial-single .testimonial-details .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px
 }
 
 @media (min-width:992px) {
