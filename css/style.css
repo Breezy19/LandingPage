@@ -274,6 +274,50 @@ body {
     border-radius: 100px
 }
 
+.screenshot-section {
+    background-image: url(../img/screenshot-bg.png);
+}
+
+.screenshot-section, .thank-you-page .banner-section, .video-section {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.order-form-section .left-container .form-title:not(:first-of-type),
+.recommended-section .bottom-content,
+.screenshot-section .tab-content {
+    margin-top: 50px
+}
+
+.screenshot-section .inner-container {
+    max-width: 928px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.screenshot-section .inner-container.tab-content {
+    margin-top: 0
+}
+
+.tab-content .nav-link.active {
+    border-color: #ff6300;
+    background: #ff6100;
+    background: -moz-linear-gradient(0deg, #ff6100 0, #ff9f43 100%);
+    background: -webkit-linear-gradient(0deg, #ff6100 0, #ff9f43 100%);
+    background: linear-gradient(0deg, #ff6100 0, #ff9f43 100%);
+}
+
+.tab-content .nav-link {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 0;
+    border: 2px solid #fff;
+    padding: 12px 27px
+}
+
 @media (min-width:992px) {
     .section-title {
         margin-left: auto;
