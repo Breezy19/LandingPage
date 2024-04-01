@@ -55,3 +55,25 @@ $(window).on("load", function () {
             
           });
     });
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the form from submitting normally
+  
+      // Get form data
+      var formData = new FormData(this);
+  
+      // Send form data via AJAX
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "send_email.php", true);
+      xhr.onreadystatechange = function() {
+          if (xhr.readyState === XMLHttpRequest.DONE) {
+              if (xhr.status === 200) {
+                  alert("Email sent successfully!");
+                  // You can perform further actions here upon successful submission
+              } else {
+                  alert("Failed to send email.");
+              }
+          }
+      };
+      xhr.send(formData);
+  });
+  

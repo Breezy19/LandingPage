@@ -6,14 +6,14 @@
     <title>Crivia Digital Agency</title>
     
     <!--// Fonts \\-->
-    <link rel="stylesheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
         
     <!--// Bootstrap \\-->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     
     <!--// Stylesheet \\-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -337,29 +337,32 @@
                     </div>
                 </div>
                 <div class="form md-mb50" style="margin-bottom: 30px;">
-                    <form action="https://formsubmit.co/contact@crivia.ma" method="POST" class="form-margin form-frame" style="text-align: start;">
+                    <form action="" method="POST" class="form-margin form-frame" style="text-align: start;" id="contactForm">
                         <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_subject" value="Création Siteweb">
-                        <input type="hidden" name="_cc" value="akram.freij@crivia.ma">
+                        <input type="hidden" name="_subject" value="">
+                        <input type="hidden" name="_cc" value="akram.freij@gmail.com">
                         <input type="hidden" name="_captcha" value="false">
                         <label for="name">Nom et prenom:</label>
                         <input type="text" id="Name" name="name" style="background: #e9ecef;" required>
-                            <br>
-                            <br>
+                        <br>
+                        <br>
                         <label for="phone">Telephone:</label>
                         <input type="tel" id="phone" name="Phone" style="background: #e9ecef;" required>
-                            <br>
-                            <br>
+                        <br>
+                        <br>
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="Email" style="background: #e9ecef;">
-                            <br>
-                            <br>
+                        <br>
+                        <br>
                         <label for="text">Type d'entreprise:</label>
                         <input type="text" id="text" name="text" style="background: #e9ecef;">
-                            <br>
-                            <br>
+                        <br>
+                        <br>
                         <button type="submit" class="btn btn-orange" style="width: 100%; text-align: center;">Envoyer Message</button>
                     </form>
+                    
+                    <script src="main.js"></script>
+                    
                 </div>
             </div>
         </section>
@@ -409,15 +412,15 @@
     <div id="preloader"></div>
 
     <!--// jQuery \\-->
-    <script src="/plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
     <!--\\ jQuery //-->
 
     <!--// Bootstrap \\-->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!--\\ Bootstrap //-->
     
     <!--// Main JS \\-->
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
     <!--\\ Main JS //-->
 
 </body>
